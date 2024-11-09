@@ -20,7 +20,7 @@ driver.maximize_window()
 
 try:
     # Buka URL Pinterest setelah login berhasil
-    pinterest_url = "https://id.pinterest.com/search/pins/?rs=ac&len=2&q=interior-deas&eq=interior-&etslf=23711"
+    pinterest_url = "https://id.pinterest.com/search/pins/?rs=ac&len=2&q=interior-ideas&eq=interior-&etslf=23711"
     driver.get(pinterest_url)
 
     # Scroll ke bagian bawah halaman
